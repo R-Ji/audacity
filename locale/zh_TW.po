@@ -1178,12 +1178,12 @@ msgstr ""
 #: src/AudioIOBase.cpp
 #, fuzzy, c-format
 msgid "Default recording device number: %d\n"
-msgstr "選擇輸入裝置"
+msgstr "預設輸入裝置"
 
 #: src/AudioIOBase.cpp
 #, c-format
 msgid "Default playback device number: %d\n"
-msgstr ""
+msgstr "預設輸出裝置"
 
 #: src/AudioIOBase.cpp
 #, fuzzy
@@ -1338,22 +1338,22 @@ msgstr ""
 #: src/AudioIOBase.cpp
 #, fuzzy, c-format
 msgid "Selected MIDI recording device: %d - %s\n"
-msgstr "選擇輸入裝置"
+msgstr "選擇MIDI輸入裝置"
 
 #: src/AudioIOBase.cpp
 #, c-format
 msgid "No MIDI recording device found for '%s'.\n"
-msgstr ""
+msgstr "找不到MIDI輸入裝置"
 
 #: src/AudioIOBase.cpp
 #, fuzzy, c-format
 msgid "Selected MIDI playback device: %d - %s\n"
-msgstr "選擇輸出裝置"
+msgstr "選擇MIDI輸出裝置"
 
 #: src/AudioIOBase.cpp
 #, c-format
 msgid "No MIDI playback device found for '%s'.\n"
-msgstr ""
+msgstr "找不到MIDI輸出裝置"
 
 #: src/AutoRecovery.cpp
 msgid ""
@@ -1470,7 +1470,7 @@ msgstr "匯出為 MP&3"
 #: src/BatchCommands.cpp
 #, fuzzy
 msgid "Export as FLAC"
-msgstr "匯出為 &WAV"
+msgstr "匯出為 &FLAC"
 
 #. i18n-hint: MP3 names an audio file format
 #: src/BatchCommands.cpp
@@ -1568,18 +1568,18 @@ msgstr "無法識別批次命令 %s 。"
 #: src/BatchCommands.cpp
 #, fuzzy
 msgid "Applied Macro"
-msgstr "已套用批次連鎖命令"
+msgstr "已套用巨集"
 
 #: src/BatchCommands.cpp
 #, fuzzy
 msgid "Apply Macro"
-msgstr "套用連鎖命令"
+msgstr "套用巨集"
 
 #. i18n-hint: active verb in past tense
 #: src/BatchCommands.cpp
 #, fuzzy, c-format
 msgid "Applied Macro '%s'"
-msgstr "已套用批次連鎖命令 '%s'"
+msgstr "已套用巨集 '%s'"
 
 #: src/BatchCommands.cpp
 #, c-format
@@ -1608,23 +1608,23 @@ msgstr "套用 %s"
 
 #: src/BatchProcessDialog.cpp
 msgid "Macros Palette"
-msgstr ""
+msgstr "巨集面板"
 
 #. i18n-hint: A macro is a sequence of commands that can be applied
 #. * to one or more audio files.
 #: src/BatchProcessDialog.cpp
 #, fuzzy
 msgid "Select Macro"
-msgstr "選擇曲線"
+msgstr "選擇巨集"
 
 #. i18n-hint: This is the heading for a column in the edit macros dialog
 #: src/BatchProcessDialog.cpp
 msgid "Macro"
-msgstr ""
+msgstr "巨集"
 
 #: src/BatchProcessDialog.cpp
 msgid "Apply Macro to:"
-msgstr ""
+msgstr "套用巨集到："
 
 #: src/BatchProcessDialog.cpp
 #, fuzzy
@@ -1655,7 +1655,7 @@ msgstr "展開"
 #: src/BatchProcessDialog.cpp
 #, fuzzy
 msgid "No macro selected"
-msgstr "未選擇連鎖命令"
+msgstr "未選擇巨集"
 
 #: src/BatchProcessDialog.cpp
 #, c-format
@@ -1690,7 +1690,7 @@ msgstr "取消(&C)"
 #: src/BatchProcessDialog.cpp
 #, fuzzy
 msgid "Manage Macros"
-msgstr "管理曲線"
+msgstr "管理巨集"
 
 #: src/BatchProcessDialog.cpp
 #, fuzzy
@@ -1775,12 +1775,12 @@ msgstr "您想要儲存變更嗎？"
 #: src/BatchProcessDialog.cpp
 #, fuzzy
 msgid "Enter name of new macro"
-msgstr "輸入新的連鎖命令的名稱"
+msgstr "輸入新巨集名稱"
 
 #: src/BatchProcessDialog.cpp
 #, fuzzy
 msgid "Name of new macro"
-msgstr "新的連鎖命令的名稱"
+msgstr "新巨集名稱"
 
 #: src/BatchProcessDialog.cpp
 msgid "Name must not be blank"
@@ -7436,7 +7436,7 @@ msgid ""
 "Choose the 'Save/Manage Curves...' button and rename the 'unnamed' curve, "
 "then use that one."
 msgstr ""
-"如要在批次連鎖命令中使用此等化器曲線，請為其選擇一個新的名稱。\n"
+"如要在巨集中使用此等化器曲線，請為其選擇一個新的名稱。\n"
 "選擇「儲存/管理曲線...」按鈕並重新命名 '未命名' 曲線，接著便可使用該曲線。"
 
 #: src/effects/Equalization.cpp
@@ -12446,17 +12446,17 @@ msgstr "工具(&O)"
 #: src/menus/PluginMenus.cpp
 #, fuzzy
 msgid "&Macros..."
-msgstr "標籤(&L)..."
+msgstr "巨集(&M)..."
 
 #: src/menus/PluginMenus.cpp
 #, fuzzy
 msgid "&Apply Macro"
-msgstr "套用(&A)"
+msgstr "套用巨集(&A)"
 
 #: src/menus/PluginMenus.cpp
 #, fuzzy
 msgid "Palette..."
-msgstr "刪除(&E)..."
+msgstr "面板..."
 
 #: src/menus/PluginMenus.cpp
 #, fuzzy
